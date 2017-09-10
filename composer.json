@@ -1,13 +1,16 @@
 {
   "require": {
     "monolog/monolog": "1.0.*",
-    "vlucas/phpdotenv": "^2.4"
+    "vlucas/phpdotenv": "^2.4",
+    "guzzlehttp/guzzle": "^6.3"
   },
 
   "autoload": {
     "classmap": [
-      "Controllers/DatabaseConnection.php"
+      "Controllers/DatabaseConnection.php",
+      "Controllers/Users.php",
+      "Controllers/Data.php",
+      "Controllers/APIController.php"
     ]
   }
 }
-

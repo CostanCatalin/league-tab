@@ -1,0 +1,13 @@
+{
+  "require": {
+    "monolog/monolog": "1.0.*",
+    "vlucas/phpdotenv": "^2.4"
+  },
+
+  "autoload": {
+    "classmap": [
+      "Controllers/DatabaseConnection.php"
+    ]
+  }
+}
+
